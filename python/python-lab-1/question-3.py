@@ -6,5 +6,6 @@ output_list = []
 for element in list_a:
     if element < 5:
         output_list.append(element)
-print(output_list, "These are the elements having a value of less than 5.")
+print("a =", list_a)
+print("The elements having a value of less than 5 are", output_list)
 
