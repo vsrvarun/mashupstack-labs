@@ -14,13 +14,13 @@ else:
     # Setting number of uppercase, lowercase, characters, digit present in password
     distribution = math.floor(length/4)
     ad_distribution = length - (3 * distribution)
-    def randomGenerator(list, no):
+    def random_generator(list, no):
         random_list = random.choices(list, k = no)
         return random_list
-    upper_random_list = randomGenerator(upper, ad_distribution)
-    lower_random_list = randomGenerator(lower, distribution)
-    num_random_list = randomGenerator(num, distribution)
-    chara_random_list = randomGenerator(chara, distribution)
+    upper_random_list = random_generator(upper, ad_distribution)
+    lower_random_list = random_generator(lower, distribution)
+    num_random_list = random_generator(num, distribution)
+    chara_random_list = random_generator(chara, distribution)
     final_list = upper_random_list + lower_random_list + num_random_list + chara_random_list
     random.shuffle(final_list)
     password = ''.join(final_list)
