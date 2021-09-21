@@ -1,0 +1,8 @@
+id,date,location,car name,model name,seller name,seller address,price
+1019, 01-02-2017, Calicut, Benz, S-Class, Hilton_E, M G Road-CLT, 40L
+1020, 01-02-2017, Calicut, Benz, E-Class, Superz, Midayitheruvu, 60L
+1017, 01-02-2017, Ernakulam, Benz, A-Class, Hilton_E, M G Road-EKM, 1.5Cr
+1018, 01-02-2017, Ernakulam, Benz, A-Class, Superz, Edappally-EKM, 1Cr
+1015, 01-02-2017, Kollam, Benz, S-Class, Hilton_Q, M G Road-QLN, 40L
+1013, 01-02-2017, Kazhakoottam, Benz, A-Class, Hilton, M G Road-Tvm, 1Cr
+1014, 01-02-2017, Srikariyam, Benz, E-Class, Susan, MashupSquare-TVM, 75L
