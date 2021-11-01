@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<form id="calcForm">
+		<h2>Calculator</h2>
+		<div class="row">
+			<label>Enter First Number</label>
+			<input type="text" id="firstInput">
+		</div>
+		<div class="row">
+			<label>Mathematical Operation</label>
+			<select id="dropDown">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+			</select>
+		</div>
+		<div class="row">
+			<label>Enter Second Number</label>
+			<input type="text" id="secondInput">
+		</div>
+		<div class="row">
+			<input type="submit" value="Result" id="btn">
+		</div>
+		<div class="row">
+			<p class="result">&nbsp;</p>
+		</div>
+	</form>
+	<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>

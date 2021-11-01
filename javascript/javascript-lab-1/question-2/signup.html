@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Signup Form</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<form id="signForm" onsubmit="validateForm(event)">
+		<h2>Sign Up</h2>
+		<div class="row">
+			<label>Full Name</label>
+			<input type="text" name="name" id="name">
+			<p class="error"></p>
+		</div>
+		<div class="row">
+			<label>Email</label>
+			<input type="text" name="email" id="email">
+			<p class="error"></p>
+		</div>
+		<div class="row">
+			<label>Phone Number</label>
+			<input type="text" name="phone" id="phone">
+			<p class="error"></p>
+		</div>
+		<div class="row">
+			<label>Password</label>
+			<input type="text" name="password" id="password">
+			<p class="error"></p>
+		</div>
+		<div class="row">
+			<input type="submit" value="Create Account" id="btn">
+			<p class="result">&nbsp;</p>
+		</div>
+	</form>
+	<script type="text/javascript" src="validation.js"></script>
+</body>
+</html>

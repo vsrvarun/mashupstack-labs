@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+p, h1, h2, a, input {
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+/*Structure*/
+.container {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: #151A22;
+}
+.col1 {
+	width: 65%;
+	height: inherit;
+	float: left;
+	position: relative;
+}
+.col2 {
+	position: relative;
+	width: 35%;
+	height: inherit;
+	background-color: #00A876;
+	float: right;
+	animation-name: motion;
+  	animation-duration: 1s;
+}
+@keyframes motion {
+  from {width: 0%;}
+  to {width: 35%;}
+}
+
+/*Logo*/
+.logo {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+.logo img {
+	width: 150px;
+	height: auto;
+}
+/*Text Content*/
+.content {
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	padding-right: 10%;
+	-ms-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+}
+.content h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+	opacity: 0.9;
+}
+.content h2 {
+	opacity: 0.6;
+	margin-bottom: 25px;
+}
+.content p {
+	opacity: 0.6;
+	font-size: 15px;
+	margin-bottom: 43px;
+	line-height: 1.5;
+}
+.content a {
+	padding: 13px 25px;
+	background-color: #00A876;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+}
+.content a:hover {
+	background-color: #008876;
+}
+/*Footer Links*/
+.links {
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+}
+.links a {
+	margin-right: 20px;
+	font-size: 13px;
+	opacity: 0.6;
+	font-weight: 400;
+}
+.links a:hover {
+	opacity: 1;
+}
+/*Login*/
+.login {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	padding-right: 10%;
+	-ms-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+	width: 90%;
+	animation-name: opacity;
+  	animation-duration: 2s;
+}
+@keyframes opacity {
+  from {opacity: 0;}
+  to {width: 1;}
+}
+.login h2 {
+	opacity: 0.9;
+	margin-bottom: 25px;
+}
+form > input {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: none;
+	padding: 10px 0px;
+	display: block;
+	width: 100%;
+	color: #fff;
+	font-size: 16px;
+}
+form input[type="password"] {
+	margin: 25px 0 38px;
+}
+form input:focus {
+	outline: none;
+	border-color: #151A22; 
+}
+/*Changed input placeholder color*/
+input::placeholder {
+  	color: #fff;
+  	opacity: 0.8;
+}
+input:-ms-input-placeholder {
+  	color: #fff;
+}
+input::-ms-input-placeholder {
+  	color: #fff;
+}
+.login-buttons input{
+	border: none;
+	padding: 13px 25px;
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	color: #00A876;
+}
+.login-buttons input:hover{
+	background-color: #151A22;
+	color: #fff;
+}
+.login-buttons a {
+	font-size: 14px;
+	margin-left: 15px;
+	opacity: 0.8;
+}
+.login-buttons a:hover {
+	opacity: 1;
+}
+
+    

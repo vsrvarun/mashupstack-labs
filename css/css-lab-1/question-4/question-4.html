@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS lab question-4</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Answer of question-4 MashupStack">
+	<meta name="keywords" content="CSS, question-4">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="question-4.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+</head>
+<body>
+	<div class="container">
+		<!-- Top row -->
+		<div class="section-top">
+			<div class="dropdown-container">
+				<p>Show</p>
+				<div class="dropdown">
+					<p>5 <span><i class="fas fa-sort-down"></i></span></p>
+					<div class="dropdown-content">
+						<p>10</p>
+						<p>50</p>
+						<p>100</p>
+					</div>
+				</div>
+				<p>entries</p>
+			</div>
+			<h1>Customer <span>Details</span></h1>
+			<div class="search-box">
+				<i class="fas fa-search"></i>
+				<input type="text" name="" placeholder="Search...">
+			</div>
+		</div>
+		<!-- Table -->
+		<div class="table-container">
+			<table>
+				<tr>
+					<th>#</th>
+					<th>Name <button><i class="fas fa-sort"></i></button></th>
+					<th>Address</th>
+					<th>City <button><i class="fas fa-sort"></i></button></th>
+					<th>Pincode</th>
+					<th>Country <button><i class="fas fa-sort"></i></button></th>
+					<th>Actions</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Thomas Hardy</td>
+					<td>89 Chiaroscuro Rd.</td>
+					<td>Portland</td>
+					<td>97219</td>
+					<td>USA</td>
+					<td class="action">
+						<button><i class="fas fa-eye"></i></button>
+						<button><i class="fas fa-pen"></i></button>
+						<button><i class="fas fa-trash"></i></button>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Maria Anders</td>
+					<td>Obere Str.57</td>
+					<td>Berlin</td>
+					<td>12209</td>
+					<td>Germany</td>
+					<td class="action">
+						<button><i class="fas fa-eye"></i></button>
+						<button><i class="fas fa-pen"></i></button>
+						<button><i class="fas fa-trash"></i></button>
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Fran Wilson</td>
+					<td>C/ Araquil,67</td>
+					<td>Madrid</td>
+					<td>28023</td>
+					<td>Spain</td>
+					<td class="action">
+						<button><i class="fas fa-eye"></i></button>
+						<button><i class="fas fa-pen"></i></button>
+						<button><i class="fas fa-trash"></i></button>
+					</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Dominique Perrier</td>
+					<td>25, rue Lauriston</td>
+					<td>Paris</td>
+					<td>75016</td>
+					<td>France</td>
+					<td class="action">
+						<button><i class="fas fa-eye"></i></button>
+						<button><i class="fas fa-pen"></i></button>
+						<button><i class="fas fa-trash"></i></button>
+					</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Martin Blank</td>
+					<td>Via Monte Bianco 34</td>
+					<td>Turin</td>
+					<td>10100</td>
+					<td>Italy</td>
+					<td class="action">
+						<button><i class="fas fa-eye"></i></button>
+						<button><i class="fas fa-pen"></i></button>
+						<button><i class="fas fa-trash"></i></button>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- Last row -->
+		<div class="section-bottom">
+			<p>Showing <span>5</span> out of <span>25</span> entries</p>
+			<div class="pagination">
+				<a href="#">Previous</a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#" class="active">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">Next</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

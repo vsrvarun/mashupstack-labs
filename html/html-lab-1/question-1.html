@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML lab question-1</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Answer of Lab1 MashupStack">
+	<meta name="keywords" content="HTML, Lab1, Form">
+	<meta name="viewport" content="wwidth=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Full Name" maxlength="25" required><br><br>
+            <label>Email:</label>
+            <input type="email" name="email" value="test@example.com" required autofocus><br><br>
+            <label>Password:</label>
+            <input type="password" name="password" minlength="6" required>
+        </fieldset><br>
+        <label>Category:</label>
+        <select name="category" required>
+            <option value="student">student</option>
+            <option value="employee">employee</option>
+            <option value="freelancer" selected>freelancer</option>
+        </select><br><br>
+        <label>Event Date:</label>
+        <input type="date" name="event date" required><br><br>
+        <label>Tickets:</label>
+        <input type="radio" id="1ticket" name="ticket" value="1ticket" required>
+        <label for="1ticket">1 ticket</label>
+        <input type="radio" id="2tickets" name="ticket" value="2tickets" checked>
+        <label for="2tickets">2 tickets</label>
+        <input type="radio" id="3tickets" name="ticket" value="3tickets">
+        <label for="3tickets">3 tickets</label><br><br>
+        <input type="checkbox" id="pay" name="online payment" value="yes" required>
+        <label for="pay">Payment</label><br><br>
+        <label>Notes:</label>
+        <textarea name="notes" placeholder="Enter Your Notes"></textarea><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
