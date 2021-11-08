@@ -1,0 +1,21 @@
+body {
+	font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+img {
+	opacity: 0.7;
+}
+.bg-github {
+	background: #F6F8FA;
+}
+label {
+	font-size: 0.9rem;
+}
+.fg-pass {
+	font-size: 0.8rem;
+}
+.sign-up {
+	font-size: 0.9rem;
+}
+.quick a {
+	font-size: 0.8rem;
+}
